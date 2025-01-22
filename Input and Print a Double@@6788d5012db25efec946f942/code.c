@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
     double n;
-    scanf("%.4f",n);
+    scanf("%f",n);
     printf("You entered: %.4f",n);
 }
