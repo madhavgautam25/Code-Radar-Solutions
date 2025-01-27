@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char name(100),hob(100);
+    char name[100],hob[100];
     int age;
     scanf("%s %d\n",&name,&age);
     scanf("%s",&hob);
