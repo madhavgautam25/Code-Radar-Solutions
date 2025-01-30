@@ -2,8 +2,7 @@
 int main(){
     int a,b;
     scanf("%d",&a);
-    b = 1 << a;
-    if (a & b){
+    if (a & (1<<b)){
         printf("Set");
     }
     else{
