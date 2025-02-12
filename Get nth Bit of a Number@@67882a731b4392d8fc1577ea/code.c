@@ -2,9 +2,7 @@
 int main(){
     int num,bit,a,temp;
     scanf("%d %d",&num, &bit);
-    for (int i=31;i>=0;i--){
-        a = (num>>i)&1;
-    }
+    a = num>>1;
     temp = a[bit];
     printf("%d",temp);
     return 0;
