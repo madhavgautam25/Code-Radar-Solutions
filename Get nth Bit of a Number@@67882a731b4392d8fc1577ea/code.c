@@ -2,8 +2,8 @@
 int main(){
     int num,bit,a,temp;
     scanf("%d %d",&num, &bit);
-    for (int i=num;i>=0;i--){
-        a = (i>>i)&1;
+    for (int i=31;i>=0;i--){
+        a = (num>>i)&1;
     }
     temp = a[bit];
     printf("%d",temp);
