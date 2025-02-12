@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    int num,bit,a,temp;
+    int num,bitp,a,temp;
     scanf("%d %d",&num, &bit);
-    a = num>>1;
-    temp = a[bit];
+    a = (num>>1) & 1;
+    temp = a[bitp];
     printf("%d",temp);
     return 0;
 }
