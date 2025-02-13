@@ -2,7 +2,7 @@
 int main(){
     int num,bitPosition = 0;
     scanf("%d",&num);
-    while((num&1)==0){
+    if ((num&1)==0){
         num>>1;
         bitPosition++;
     }
