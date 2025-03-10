@@ -2,9 +2,8 @@
 int main(){
     char ch,chl,chu;
     scanf("%c",&ch);
-    chl = islower(ch);
-    chu = isupper(ch);
-    if(ch==chl){
+    
+    if(ch>='a' && ch<='z'){
         printf("Lowercase");
     }else{
         printf("Uppercase");
