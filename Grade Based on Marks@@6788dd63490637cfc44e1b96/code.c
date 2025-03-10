@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int marks;
+    int num;
     scanf("%d",&num);
     if(num>=90){
         printf("A");
