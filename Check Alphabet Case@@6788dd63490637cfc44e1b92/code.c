@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main(){
-    char ch;
+    char ch,chl,chu;
     scanf("%c",&ch);
-    if(ch==('a'<'z')){
+    chl = islower(ch);
+    chu = isupper(ch);
+    if(ch==chl){
         printf("Lowercase");
     }else{
         printf("Uppercase");
